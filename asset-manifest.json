@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AshviEngineers/static/css/main.52153a55.css",
+    "main.js": "/AshviEngineers/static/js/main.2c489422.js",
+    "static/js/787.2eb8fe68.chunk.js": "/AshviEngineers/static/js/787.2eb8fe68.chunk.js",
+    "static/media/metal.jpg": "/AshviEngineers/static/media/metal.c68ffa78a3a8c09bb35a.jpg",
+    "static/media/wooden.jpg": "/AshviEngineers/static/media/wooden.4fa9036d39ea1af77549.jpg",
+    "static/media/Drill.jpg": "/AshviEngineers/static/media/Drill.c6e3025ce111e1e234db.jpg",
+    "static/media/Press.jpg": "/AshviEngineers/static/media/Press.47b2f5c64297a80e3e84.jpg",
+    "static/media/Dark.png": "/AshviEngineers/static/media/Dark.eb16291b60d7a576a11d.png",
+    "static/media/img2.png": "/AshviEngineers/static/media/img2.a17540db4bd0f28cab57.png",
+    "static/media/img4.png": "/AshviEngineers/static/media/img4.70cab1576475091f2917.png",
+    "static/media/img1.png": "/AshviEngineers/static/media/img1.ba1d1cef90f7eba0e788.png",
+    "static/media/Pattern.jpeg": "/AshviEngineers/static/media/Pattern.d5cbf20b828cc05868e4.jpeg",
+    "static/media/Wooden_Work.jpeg": "/AshviEngineers/static/media/Wooden_Work.6045faeb4f0983445fcf.jpeg",
+    "static/media/LOGO.png": "/AshviEngineers/static/media/LOGO.24a873b08fa86c55b3d8.png",
+    "index.html": "/AshviEngineers/index.html",
+    "main.52153a55.css.map": "/AshviEngineers/static/css/main.52153a55.css.map",
+    "main.2c489422.js.map": "/AshviEngineers/static/js/main.2c489422.js.map",
+    "787.2eb8fe68.chunk.js.map": "/AshviEngineers/static/js/787.2eb8fe68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52153a55.css",
+    "static/js/main.2c489422.js"
+  ]
+}
