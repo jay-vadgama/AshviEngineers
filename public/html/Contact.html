@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashvi Engineers | Our Services</title>
+    <link rel="icon" href="../assets/Image/AE_LOGO.png">
+
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="../assets/css/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/0c6fc3656f.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("4AYN7G-NJLC7bbdS0");
+        })();
+    </script>
+</head>
+
+<body class="galary-body">
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="../../index.html"><img class="nav-logo"
+                    src="../assets/Image/AE_LOGO.png" alt="" srcset=""> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link custom-link-navbar" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link-navbar" href="./Services.html">Our
+                            Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link-navbar" href="./Galary.html">Galary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link-navbar" href="./About.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active custom-link-navbar " href="./Contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mt-5 about-div">
+        <div class="container-fluid">
+
+
+
+
+            <div class="container contact-main-div">
+                <!-- Page Heading -->
+                <div class='container page-heading'>
+                    <h2 class='custom-color text-center'>Contact Us</h2>
+                    <div class='center'>
+                        <hr class='custom-hr' />
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="left col-lg-6">
+                        <div class="container">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-10 contact-details-div contact-form-div form-shadow">
+                                    <p><i class="fa-solid fa-user-tie"></i>&emsp;Mr. Sameer Kharecha</p>
+                                    <p><i class="fa-solid fa-phone"></i>&emsp;+91 98984 71706</p>
+                                    <hr />
+                                    <p><i class="fa-solid fa-user-tie"></i>&emsp;Mr. Umesh Makvana</p>
+                                    <p><i class="fa-solid fa-phone"></i>&emsp;+91 99041 97043</p>
+                                    <hr />
+                                    <p><i class="fa-solid fa-envelope"></i> ashviengineers2710@gmail.com</p>
+                                </div>
+                                <div class="col-lg-10 contact-details-div contact-form-div form-shadow">
+                                    <p><i class="fa-solid fa-map-location-dot"></i>&emsp; Plot No. 9, Revenue Survey No.
+                                        642, Surbhi Industrial Zone-2, Shed No. 3, Ravki, Lodhika, Rajkot - 360035,
+                                        Gujarat.</p>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right col-lg-6">
+                        <div class="container">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-10 contact-form-div form-shadow">
+                                    <form class="was-validated" id="contact_form">
+                                        <div class="mb-3">
+                                            <label for="user_name" class="form-label">Name:</label>
+                                            <input type="text" pattern="[a-zA-Z\s]{1,20}" class="form-control"
+                                                id="user_name" required>
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="user_email" class="form-label">Email:</label>
+                                            <input type="email" class="form-control"
+                                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="user_email"
+                                                required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="user_phone" class="form-label">Phone:</label>
+                                            <input type="text" pattern="[7-9]{1}[0-9]{9}" class="form-control"
+                                                id="user_phone" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="user_message" class="form-label">Message:</label>
+                                            <textarea class="form-control" id="user_message" rows="3"
+                                                required></textarea>
+                                        </div>
+                                        <div class="center">
+                                            <button type="submit" id="ContactSubmitBtn"
+                                                class="btn btn-primary submitBtn">Submit</button>
+
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="container-fluid footer-div">
+        <div class="container-fluid footer-sub-div">
+            <div class="row margin-right-left">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <h4>
+                        <p class='mt-5'><b>Important Links</b></p>
+                    </h4>
+                    <hr class='custom-hr-75' />
+                    <a class="nav-link custom-link-navbar effect2" aria-current="page" href="../../index.html">Home</a>
+                    <a class="nav-link custom-link-navbar effect2" href="./Services.html">Our
+                        Services</a>
+                    <a class="nav-link custom-link-navbar effect2" href="./Galary.html">Galary</a>
+                    <a class="nav-link custom-link-navbar effect2" href="./About.html">About us</a>
+                    <a class="nav-link custom-link-navbar effect2" href="./Contact.html">Contact us</a>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <h4>
+                        <p class='mt-5'><b>Contact us</b></p>
+                    </h4>
+                    <hr class='custom-hr-75' />
+                    <div>
+                        <p><i class="fa-solid fa-user"></i> Sameer Kharecha</p>
+                        <p><i class="fa-solid fa-phone"></i> 98984 71706</p>
+                    </div>
+                    <hr />
+                    <div>
+                        <p><i class="fa-solid fa-user"></i> Umesh Makvana</p>
+                        <p><i class="fa-solid fa-phone"></i> 99041 97043</p>
+                    </div>
+                    <hr />
+                    <p class='footer-address-p'><i class="fa-solid fa-envelope"></i>ashviengineers2710@gmail.com
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <h4>
+                        <p class='mt-5'><b>Address</b></p>
+                    </h4>
+                    <hr class='custom-hr-75' />
+                    <p class='footer-address-p'><i class="fa-solid fa-map-location-dot"></i>
+                        Plot No. 9, Revenue Survey No. 642, Surbhi Industrial Zone-2, Shed
+                        No. 3, Ravki, Lodhika, Rajkot - 360035, Gujarat.
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <h4>
+                        <p class='mt-5'><b>Location</b></p>
+                    </h4>
+                    <hr class='custom-hr-75' />
+
+                    <div class="d-flex justify-content-center" style="width: 100%">
+                        <iframe width="90%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.5940376518793!2d70.71391011490368!3d22.17951998538645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395833299644af5f%3A0xd23f8440b4a0be1f!2sAshvi%20Engineers!5e0!3m2!1sen!2sin!4v1657731741148!5m2!1sen!2sin"><a
+                                href="https://www.gps.ie/sport-gps/">fitness tracker</a></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class='center mt-5'>
+                <hr class='custom-hr-1' />
+            </div>
+            <div class='center'>
+                <p class='custom-margin'>Copyright © 2022 Ashvi Engineers. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        const form = document.getElementById('contact_form');
+        document.getElementById("ContactSubmitBtn").addEventListener("click", function (event) {
+            event.preventDefault();
+
+            let userName = document.getElementById('user_name').value;
+            let userEmail = document.getElementById('user_email').value;
+            let userPhone = document.getElementById('user_phone').value;
+            let userMsg = document.getElementById('user_message').value;
+
+            if (userName !== '' && userEmail !== '' && userPhone !== '' && userMsg !== '') {
+
+                if (!isNaN(userPhone)) {
+
+                    if ((userPhone.length === 10)) {
+
+                        var params = {
+                            from_name: document.getElementById('user_name').value,
+                            user_email: document.getElementById('user_email').value,
+                            user_phone: document.getElementById('user_phone').value,
+                            user_message: document.getElementById('user_message').value,
+                        }
+
+                        emailjs.send('service_e5huebk', 'template_94ume1o', params)
+                            .then(function (response) {
+                                Swal.fire(
+                                    'Good job!',
+                                    'Thank you for reaching out',
+                                    'success'
+                                )
+                                form.reset();
+                                console.log('SUCCESS!', response.status, response.text);
+
+                            }, function (error) {
+                                console.log('FAILED...', error);
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Something went wrong!'
+                                })
+                            });
+
+
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Phone number length should be in 10 digits.'
+                        })
+                    }
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Phone number should be in digits.'
+                    })
+                }
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Invalid data..! Please fill all the fields.'
+                })
+            }
+        });
+
+
+
+        // Show success message
+
+    </script>
+</body>
+
+</html>
